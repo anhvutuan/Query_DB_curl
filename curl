@@ -1,0 +1,1 @@
+for i in {1..1}; do curl --location --request GET 'https://yourtarget' --header 'device_uid: input_device_uid_in_here' --header 'app_id: input_app_id_in_here' --header 'Authorization: Bearer inpurt_password_authen_here' --data-raw ''; done
